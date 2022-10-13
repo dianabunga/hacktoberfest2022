@@ -285,6 +285,6 @@ const agus = async (fullName, phone) => {
         const randomPhone = Math.floor(Math.random() * 90000000) + 10000000;
         const phone = `0812${randomPhone.toString()}`;
         await agus(fullName, phone);
-        console.log(`${i + 1}. Done ${fullName} ${phone}`);
+        console.log(`${i + 1}. Task is done ${fullName} ${phone}`);
     }
 })();
