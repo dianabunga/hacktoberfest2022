@@ -25,11 +25,6 @@ const agus = async (fullName, phone) => {
         headless: false,
         ignoreHTTPSErrors: true,
         executablePath: chromePaths.chrome,
-        defaultViewport: {
-            width: 375,
-            height: 667,
-            isMobile: false,
-        },
         slowMo: 0,
         devtools: false,
         args
